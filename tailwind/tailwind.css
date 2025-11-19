@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    @font-face {
+      font-family: 'mitra';
+      src: url(../public/font/FarMitra.woff) format('woff');
+      src: url(../public/font/FarMitra.woff2) format('woff2');
+      src: url(../public/font/FarMitra.ttf) format('ttf');
+      src: url(../public/font/FarMitra.eot) format('eot');
+    }
+  }
